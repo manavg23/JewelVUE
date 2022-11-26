@@ -204,7 +204,7 @@ opacity: 1;
 }
 .ring-image{
     position: absolute;
-    top: 84px;
+    top: 0px;
 left: 917px;
 width: 685px;
 height: 678px;
@@ -214,7 +214,7 @@ opacity: 1;
 }
 .ar-fullscreen-button{
     position: absolute;
-    top: 744px;
+    top: 651.77px;
 left: 1637px;
 width: 103px;
 height: 39px;
