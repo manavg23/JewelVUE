@@ -202,6 +202,17 @@ color: #FFFDFD;
 text-transform: uppercase;
 opacity: 1;
 }
+
+.dropdown-image{
+    position:absolute;
+    top: 125px;
+left: 1560px;
+width: 180px;
+height: 171px;
+background: transparent url('images/Dropdown.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+    
+}
 .ring-image{
     position: absolute;
     top: 0px;
