@@ -157,11 +157,18 @@ text-align: center;
 background: local;
 letter-spacing: 0px;
 color: #FFFFFF;
-text-transform: uppercase;
+
 opacity: 1;
 border: 1px solid #FFFFFF;
 border-radius: 5px;
 opacity: 1;
+font-family:Open Sans;
+font-size: 14px;
+font-weight: normal;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: uppercase;
+
 
 }
 .Request-Demo-Button{
@@ -180,7 +187,8 @@ opacity: 1;
     margin-top: 12px;
     
    border: none;
-    font: normal normal bold 14px/19px Open Sans;
+   
+    font: normal normal 900 14px/19px Open Sans;
     letter-spacing: 0px;
     color: #FFFDFD;
     text-transform: uppercase;
