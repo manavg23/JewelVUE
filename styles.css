@@ -28,14 +28,13 @@ opacity: 1;
     
 }
 .homepage-hero-content-text{
-    height:296px;
+    height:634px;
     width: 583px;
-    margin-top: 126px;
+    
     
 }
 .homepage-hero-content-heading{
-    width: 565px;
-height: 97px;
+  margin-top: 126px;
     text-align: left;
 font: normal normal normal 35px/50px Open Sans;
 letter-spacing: 1.44px;
@@ -44,8 +43,7 @@ opacity: 1;
 
 }
 .homepage-hero-content-subtext{
-    margin-top: 50px;
-    height: 72px;
+ margin-top: 50px;
     text-align: left;
 font: normal normal 300 25px/38px Open Sans;
 letter-spacing: 0.5px;
@@ -137,8 +135,15 @@ opacity: 1;
 margin-bottom: 10px;
 
 }
+.nav-list-right{
+    display: flex;
+    justify-content: flex-end;
+    width: 290px;
+    height: 56px;
+    
+}
 .nav-item-demopage{
-margin-left: 480px;
+
     width: 97px;
 height: 56px;
 text-align: center;
@@ -149,7 +154,7 @@ opacity: 1;
 
 }
 .Request-Demo-Button{
-   align-items: flex-start;
+  
    width: 141px;
    height: 35px;
     border-radius: 2px;
