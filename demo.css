@@ -16,7 +16,7 @@ position: relative;
 
 }
 .demo-page-div{
-    height: 693px;
+    height: 596.4px;
     width: 100%;
     max-width: 1224px;
     border: 1px;
@@ -37,7 +37,7 @@ opacity: 1;
 }
 .demo-page-div-content{
     width: 100%;
-    height: 543.9px;
+    height:524.16px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
 border-bottom: 0.5px solid #707070;
 opacity: 1;
@@ -47,24 +47,24 @@ display: flex;
 
 width: 100%;
     max-width: 745px;
-    height:543.9px;
+    height:100%;
     border-bottom: 0.5px solid #707070;
     border-right: 0.5px solid #707070;
 }
 .demo-page-div-text{
     width: 100%;
     max-width: 479px;
-    height: 543.9px;
+   height: 100%;
     
 }
 .demo-page-div-text-heading{
     width: 100%;
     max-width: 435px;
-height: 21.7px;
+height: 18.22px;
 margin-left: auto;
 margin-right: auto;
 margin-top: 11.9px;
-text-align: center;
+text-align: left;
 font: normal normal bold 17.5px/20px Rufina;
 letter-spacing: 0px;
 color: #000A2D;
@@ -74,7 +74,7 @@ opacity: 1;
 .demo-page-div-text-subtext{
     width: 100%;
     max-width: 435px;
-height: 15.4px;
+height: 12.93px;
 margin-left: auto;
 margin-right: auto;
 margin-top:23.8px ;
@@ -86,4 +86,282 @@ font: normal normal bold 12.6px/20px Rufina;
 letter-spacing: 0px;
 color: #000A2D;
 opacity: 1;
+}
+.demo-page-div-text-steps{
+    width: 100%;
+    display: flex;
+    height: 39.98px;
+    margin-top: 11.2px;
+
+}
+.demo-page-div-text-step-1,.demo-page-div-text-step-2,.demo-page-div-text-summary{
+    width: 100%;
+    max-width: 161px;
+height: 39.98px;
+/* UI Properties */
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+border: 0.5px solid var(--unnamed-color-707070);
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 0.5px solid #707070;
+opacity: 1;
+text-align: center;
+font: normal normal bolder 12.6px/42.7px Open Sans;
+letter-spacing: 0px;
+color: #000A2D;
+opacity: 1;
+justify-content: center;
+}
+.demo-page-div-text-step-1{
+    border-left: none;
+}
+.demo-page-div-text-summary{
+    border-right: none;
+}
+.demo-page-div-text-metal-text{
+    width: 100%;
+    max-width: 435px;
+height: 12.93px;
+margin-left: auto;
+margin-right: auto;
+/* UI Properties */
+margin-top: 17.68px;
+color: var(--unnamed-color-000a2d);
+text-align: left;
+font: normal normal 600 11.2px/20px Open Sans;
+letter-spacing: 0px;
+color: #000A2D;
+opacity: 1;
+}
+.demo-page-div-text-metal-colors{
+    margin-top:5.6px;
+    display: flex;
+    justify-content: space-between  ;
+    width: 100%;
+    max-width: 425px;
+    height: 46.45px;
+    margin-right: auto;
+    margin-left: 22px;
+}
+.demo-page-div-text-metal-color1,.demo-page-div-text-metal-color2,.demo-page-div-text-metal-color3,.demo-page-div-text-metal-color4{
+
+    width: 100%;
+    max-width: 84px;
+    height:49.3px;
+}
+.metal-color{
+    width: 100%;
+    height: 31.5px;
+}
+figcaption{
+    text-align: center;
+font: normal normal normal 10px/10px Open Sans;
+letter-spacing: 0px;
+color: #000A2D;
+opacity: 1;
+}
+
+.demo-page-div-text-diamondshape{
+    width: 100%;
+    max-width: 435px;
+height: 12.93px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 25.2px;
+    text-align: left;
+font: normal normal 900 11.2px/20px Open Sans;
+letter-spacing: 0px;
+color: #000A2D;
+opacity: 1;
+}
+.shape-grid{
+    margin-top: 9.1px;
+    width: 100%;
+    max-width: 429px;
+    height: 87px;
+    margin-right:0px;
+    margin-left: 12px;
+    display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+grid-column-gap: 5px;
+}
+.shape-image{
+    width:100%;
+    height: 39.3px;
+    max-width: 84px;
+
+}
+.diamond-carat-size-heading{
+    width: 100%;
+    max-width: 435px;
+height: 12.93px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 25.2px;
+text-align: left;
+font: normal normal bolder 11.2px/20px Open Sans;
+letter-spacing: 0px;
+color: #000A2D;
+opacity: 1;
+}
+.carat-size-div{
+    width: 100%;
+    max-width: 429px;
+    height: 35.2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6.67px;
+   display: flex;
+   justify-content: space-between;
+
+}
+.carat-size-div-1{
+    width:100%;
+    max-width: 84px;
+
+height: 26.4px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 0.5px solid #707070;
+border-radius: 5px;
+opacity: 1;
+text-align: center;
+font: normal normal bolder 11.2px/30px Open Sans;
+letter-spacing: 0.32px;
+color: #000A2D;
+}
+.ring-size-div{
+    width: 100%;
+    max-width: 130px;
+    height: 32.9px;
+  
+    }
+
+    .ring-size-text{
+        width: 100%;
+        height:12.93px;
+        text-align: left;
+font: normal normal bolder 11.2px/0px Open Sans;
+letter-spacing: 0.32px;
+color: #000A2D;
+opacity: 1;
+    }
+
+    .ring-size-subtext{
+        text-align: left;
+text-decoration: underline;
+font: italic normal 300 8.4px/20px Open Sans;
+letter-spacing: 0.24px;
+color: #818181;
+opacity: 1;
+    }
+    .select-and-continue{
+       
+        width: 100%;
+        max-width: 200px;
+
+background: transparent url("./images/select\ and\ continue.svg") 0% 0% no-repeat padding-box;
+opacity: 1;
+margin-bottom: 10px;
+
+    }
+    .end-section{
+        display: flex ;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 25.2px;
+    }
+    .amount-section{
+        width: 100%;
+        height:73px;
+        display: flex;
+        border-top: 0.5px solid #707070 ;
+        justify-content: space-between;
+ }
+
+.shipping-info{
+    width: 100%;
+    max-width:248px;
+    height: 56.4px;
+    margin-top: 10.5px;
+    margin-left: 10px;
+
+}
+.free-shipping{
+    text-align: left;
+font: normal normal bolder 9.8px/20px Open Sans;
+letter-spacing: 0.28px;
+color: #000A2D;
+text-transform: capitalize;
+opacity: 1;
+}
+.price-inclusive{
+    margin-top: 10px;
+}
+.amount{
+   width:100%;
+    max-width:174px;
+    height: 41.7px;
+    text-align: center;
+font: normal normal bold 28px/20px Rufina;
+letter-spacing: 0.8px;
+color: #000A2D;
+opacity: 1;
+margin-top: 19.6px;
+
+
+}
+.div-image{
+    width: 100%;
+    max-width:696.12px;
+    height: 433.9px;
+    margin-left: 18px;
+    margin-right: 30px;
+    margin-top: 11.8px;
+    margin-bottom: 15.34px;
+    position: relative;
+}
+.full-screen{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.ar-button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.view-360{
+    position: absolute;
+bottom: 0px;
+right:56px;
+}
+.select-view{
+   
+  
+    width: 115px;
+height: 29.4px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #C6C6C6;
+border-radius: 5px;
+opacity: 1;
+text-align: center;
+font: normal normal bold 14px/13px Open Sans;
+letter-spacing: 0.28px;
+color: #C6C6C6;
+opacity: 1;
+}
+.ring-demo-image{
+    width:100%;
+    max-width: 652px;
+    height: 379.8px;
+    margin-top: 57.13px;
+    margin-left:31px;
+    margin-right: 13.12px;
+    margin-bottom: 35.08px;
+}
+.ring-image-placeholder{
+    width: 100%;
+    max-width: 536px;
+    height: 318.1px;
+    background: transparent url('./images/Viewer Interface_demo page/Ring\ placeholder\ image.png') 0% 0% no-repeat padding-box;
 }
